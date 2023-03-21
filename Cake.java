@@ -1,3 +1,3 @@
 public interface Cake {
-    public String getTopping();
+    public String getToppings();
 }

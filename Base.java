@@ -1,7 +1,7 @@
 public class Base implements Cake{
 
     @Override
-    public String getTopping() {
-        return null;
+    public String getToppings() {
+        return "Base";
     }
 }
