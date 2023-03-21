@@ -1,3 +1,5 @@
+package CakeDecorator;
+
 public class Main {
     public static void main(String[] args) {
         Cake c = new Base();

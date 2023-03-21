@@ -1,4 +1,6 @@
-public class Base implements Cake{
+package CakeDecorator;
+
+public class Base implements Cake {
 
     @Override
     public String getToppings() {

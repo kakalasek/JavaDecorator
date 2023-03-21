@@ -1,4 +1,8 @@
-public class WithCream extends CakeDecorator{
+package CakeDecorator;
+
+import CakeDecorator.CakeDecorator;
+
+public class WithCream extends CakeDecorator {
 
     public WithCream(Cake c) {
         super(c);

@@ -1,4 +1,8 @@
-public class WithJelly extends CakeDecorator{
+package CakeDecorator;
+
+import CakeDecorator.CakeDecorator;
+
+public class WithJelly extends CakeDecorator {
     public WithJelly(Cake c) {
         super(c);
     }

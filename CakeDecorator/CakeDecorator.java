@@ -1,4 +1,6 @@
-public abstract class CakeDecorator implements Cake{
+package CakeDecorator;
+
+public abstract class CakeDecorator implements Cake {
     private final Cake decoratedCake;
 
     public CakeDecorator(Cake c){
