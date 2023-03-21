@@ -20,4 +20,11 @@ public class Helper {
         }
         return false;
     }
+
+    public static boolean isFirstCapital(String str){
+        if(Character.isUpperCase(str.toCharArray()[0])) {
+            return true;
+        }
+        return false;
+    }
 }
